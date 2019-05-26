@@ -3,9 +3,9 @@ module.exports = {
 //     solc: '0.4.25'
 //   },
   networks: {
-    development: {
+    ganache: {
       host: "localhost",
-      port: 8545,
+      port: 7545,
       network_id: "*" // Match any network id
     }
   }
